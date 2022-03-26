@@ -14,10 +14,14 @@ Usage:
 ```
 
 if the user belongs to group <route>, the status is checked of the foundryvtt instance on http://foundryvtt.lan:<port>/<route> using a custom added API that:
-  * returns the status and active world of the instance
-  * adds the user as a foundryvtt user with assistant GM permissions if the user belongs to group gm<route> and player permissions otherwise.
+  * returns the status and active world of the instance;
+  * adds the user as a foundryvtt user;
+  * creates/updates the password from the foundryvtt user (a random password with 24 letters or digits);
+  * if the user belongs to group gm<route> it will receive  assistant GM permissions and player permissions otherwise;
   * returns a password that can be used to login this user in this foundryvtt instance.
-  
+If the user belongs to group <route> a link to the instance is presented and a hidden <div> will contain the password for use by the foundryvtt autologin javascript.
+
+ 
 
 All documentation for this plugin can be found at
 http://www.dokuwiki.org/plugin:foundryvttstatus (URL INCORRECT)
