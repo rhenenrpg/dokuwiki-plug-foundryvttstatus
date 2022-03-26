@@ -7,6 +7,17 @@ NOTES: WORK IN PROGRESS
 - secred api key is hard-coded
 
 
+Usage: 
+
+```
+<foundryvttstatus route="vttdinsdag" port="30000">   
+```
+
+if the user belongs to group <route>, the status is checked of the foundryvtt instance on http://foundryvtt.lan:<port>/<route> using a custom added API that:
+  * returns the status and active world of the instance
+  * adds the user as a foundryvtt user with assistant GM permissions if the user belongs to group gm<route> and player permissions otherwise.
+  * returns a password that can be used to login this user in this foundryvtt instance.
+  
 
 All documentation for this plugin can be found at
 http://www.dokuwiki.org/plugin:foundryvttstatus (URL INCORRECT)
