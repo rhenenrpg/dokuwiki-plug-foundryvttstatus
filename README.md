@@ -18,7 +18,7 @@ if the user belongs to group $route, the status is checked of the foundryvtt ins
   * adds the user as a foundryvtt user;
   * creates/updates the password from the foundryvtt user (a random password with 24 letters or digits);
   * if the user belongs to group gm$route it will receive  assistant GM permissions and player permissions otherwise;
-  * returns a password that can be used to login this user in this foundryvtt instance.
+  * returns the username and password that can be used to login this user in this foundryvtt instance.
 If the user belongs to group $route a link to the instance is presented and a hidden password is returned for use by the foundryvtt autologin javascript.
 
  
