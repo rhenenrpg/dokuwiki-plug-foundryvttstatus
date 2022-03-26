@@ -1,0 +1,8 @@
+# General Plugin Info do not edit
+base   foundryvttstatus
+author Martijn
+email  m.e.sanders@alumnus.utwente.nl
+date   2021-06-05
+name   foundryvttstatus
+desc   add a dynamic status section for local foundry instance to wiki page
+url    http://www.dokuwiki.org/foundryvttstatus:comment NOT CORRECT
